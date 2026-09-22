@@ -1,0 +1,14 @@
+interface:
+  display_name: Cut Talking-Head Footage
+  short_description: Make natural, precise dialogue rough cuts
+  default_prompt: Use $cut-talking-head-footage to turn this raw recording into a
+    natural, tight rough cut.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

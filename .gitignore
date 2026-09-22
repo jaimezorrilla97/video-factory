@@ -1,0 +1,45 @@
+# ---- Secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Dependencies ----
+node_modules/
+
+# ---- Layer 4: per-run artifacts (the products, not the factory) ----
+# reels/ holds the work; only its contract is versioned.
+/reels/*
+!/reels/CLAUDE.md
+
+# ---- Reel-specific compositions, media and renders ----
+motion-studio/src/reels/
+motion-studio/src/Hair*.tsx
+motion-studio/src/hair-*.ts
+motion-studio/src/hair-*.json
+motion-studio/public/
+motion-studio/out/
+motion-studio/.remotion/
+
+# ---- Media ----
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# ---- Build artifacts ----
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

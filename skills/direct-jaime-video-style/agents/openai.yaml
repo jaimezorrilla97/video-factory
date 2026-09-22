@@ -1,0 +1,14 @@
+interface:
+  display_name: Direct Jaime Video Style
+  short_description: Apply Jaime’s visual editing grammar
+  default_prompt: Use $direct-jaime-video-style to design and execute the visual edit
+    for this video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
